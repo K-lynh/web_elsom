@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- gan bieu tuong cua font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="../asset/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="../asset/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="../asset/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="../asset/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="../asset/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="../asset/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="../asset/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="../asset/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../asset/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="../asset/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../asset/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="../asset/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../asset/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../asset/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="../asset/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Alfa+Slab+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- link css -->
+    <link rel="stylesheet" href="../asset/css/base.css" />
+    <link rel="stylesheet" href="../asset/css/dangnhap.css" />
+    <title>Elsom</title>
+  </head>
+  <body>
+    <header class="header_dn">
+      <!-- logo -->
+      <div class="logo_header">
+        <img src="../asset/img/logo.svg" alt="" class="home" />
+        <h1 class="elsom">Elsom</h1>
+      </div>
+      <!-- btn đăng kí đăng nhập -->
+      <div class="btn_dn">
+        <button class="btn1 dk">Đăng kí</button>
+        <button class="btn1 dn">Đăng nhập</button>
+      </div>
+    </header>
+
+    <main class="main_dn">
+      <!-- Bia -->
+      <img src="../asset/img/bia.png" alt="" class="bia" />
+
+      <!-- Dang nhap -->
+      <form action="dangnhap" method="post" class="phong">
+        <!-- Chào mừng -->
+        <section class="dn_cm">
+          <img src="../asset/img/logo.svg" alt="" class="logo" />
+          <div class="chaomung">
+            <p class="cm">Chào mừng đến với</p>
+            <h2 class="elsom elsom1">Elsom</h2>
+          </div>
+        </section>
+
+        <!-- Email -->
+        <section class="nhap">
+          <div class="form_e">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+        </section>
+
+        <!-- Password -->
+        <section class="nhap">
+          <div class="form_pw">
+            <label for="password">Mật khẩu</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Mật khẩu"
+              required
+            />
+            <i class="fa-solid fa-eye"></i>
+          </div>
+        </section>
+
+        <!-- Quên mật khẩu -->
+        <a href="#" class="qmk">Quên mật khẩu?</a>
+
+        <!-- Đăng nhập -->
+        <button type="submit" class="btn2 btn_dangnhap">Đăng nhập</button>
+      </form>
+    </main>
+  </body>
+</html>

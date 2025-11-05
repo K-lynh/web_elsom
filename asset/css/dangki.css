@@ -1,0 +1,195 @@
+.header_dn {
+  width: 94.5re;
+  height: 5rem;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home {
+  width: 4.25rem;
+  height: 4.25rem;
+}
+
+.elsom {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  align-items: center;
+  color: pink;
+}
+
+.btn_dn {
+  display: flex;
+  gap: 40px;
+  margin-right: 50px;
+}
+
+.dk {
+  background: #96e4e8;
+}
+
+/* =================main======================= */
+.main_dn {
+  position: relative;
+}
+.bia {
+  width: 100%;
+  height: calc(100vh - 5rem);
+  object-fit: cover;
+}
+
+.wc {
+  display: flex;
+  align-items: center; /*Can doc */
+  width: 55rem;
+  height: 27rem;
+  position: absolute;
+  font-family: "Alfa Slab One", serif;
+  font-size: 90px;
+  color: #fff;
+  left: 109px;
+  top: 136px;
+}
+
+.phong {
+  position: absolute;
+  bottom: 4rem;
+  right: 6rem;
+}
+
+.dn_cm {
+  transform: translateY(-1rem);
+  justify-items: center;
+}
+
+.logo {
+  position: relative;
+  left: -1px;
+  top: -11px;
+}
+.cm {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 200;
+  font-style: normal;
+  align-items: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+.chaomung {
+  transform: translateY(-0.5rem);
+  position: relative;
+  left: 0px;
+  top: -12px;
+}
+
+.elsom1 {
+  font-size: 2rem;
+  position: relative;
+  left: -3px;
+  top: 0px;
+}
+
+/* Bố cục phần nhập */
+.nhap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  max-width: 300px; /* giới hạn chiều rộng */
+  margin: 0 auto; /* căn giữa */
+}
+
+.form_tdn label {
+  display: grid;
+  text-align: left;
+  position: relative;
+  left: -7px;
+  top: -23px;
+  transition: none;
+  cursor: move;
+  color: #555;
+}
+.form_tdn input {
+  width: 22rem;
+  height: 3.25rem;
+  padding-top: 0.5rem;
+  border-radius: 30px;
+  border: 0.75px solid #333333;
+  position: relative;
+  left: -23px;
+  top: -18px;
+}
+
+.form_e label {
+  display: grid;
+  text-align: left;
+  position: relative;
+  left: -8px;
+  top: -9px;
+  transition: none;
+  cursor: move;
+  color: #555;
+}
+.form_e input {
+  width: 22rem;
+  height: 3.25rem;
+  padding-top: 0.5rem;
+  border-radius: 30px;
+  border: 0.75px solid #333333;
+  position: relative;
+  left: -25px;
+  top: -4px;
+}
+
+.form_e input::placeholder {
+  transform: translateX(3rem);
+  font-family: "Afacad", sans-serif;
+  font-size: 1.75rem;
+  transform: translateX(2rem);
+  color: #999;
+}
+
+.form_pw label {
+  display: grid;
+  text-align: left;
+  position: relative;
+  transition: none;
+  cursor: move;
+  color: #555;
+  left: -11px;
+  top: 11px;
+}
+.form_pw input {
+  width: 22rem;
+  height: 3.25rem;
+  padding-top: 0.5rem;
+  border-radius: 30px;
+  border: 0.75px solid #333333;
+  position: relative;
+  left: -26px;
+  top: 16px;
+}
+
+.form_pw input::placeholder {
+  transform: translateX(3rem);
+  font-family: "Afacad", sans-serif;
+  font-size: 1.75rem;
+  transform: translateX(2rem);
+  color: #999;
+}
+
+.fa-eye {
+  position: relative;
+  left: 146px;
+  top: -37px;
+  transition: none;
+  font-size: 1.5rem;
+  line-height: 3.25rem;
+}
+
+.btn_dangnhap {
+  background-color: #96e4e8;
+}

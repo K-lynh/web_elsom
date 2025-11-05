@@ -1,0 +1,99 @@
+.logo {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.elsom {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  align-items: center;
+  color: pink;
+  font-size: 3rem;
+}
+
+.nar_bar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 20px 0;
+}
+
+.btn_bar {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  margin-left: 1rem;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #333;
+  font-size: 1.75rem;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_dangnhap {
+  position: absolute;
+}
+
+/* tim kiem */
+
+body {
+  display: flex;
+}
+
+.tk {
+  padding: 10px 30px;
+}
+
+header.tk input {
+  width: 880px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  background: #ded7d7;
+  font-size: 1.5rem;
+  outline: none;
+  margin-left: 5rem;
+}
+
+header.tk i {
+  position: relative;
+  left: -4rem;
+  color: #333;
+  cursor: pointer;
+  align-items: center;
+}
+
+nav.search {
+  position: absolute;
+  top: 60px;
+  left: 220px; /* bằng chiều rộng menu trái */
+  width: calc(100% - 220px);
+}
+
+nav.search ul {
+  list-style: none;
+  display: flex;
+  margin-top: 2rem;
+  gap: 4rem;
+  margin-left: 5rem;
+}
+
+nav.search a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 300;
+}
+
+nav.search a:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  color: pink;
+}
