@@ -11,6 +11,17 @@
   color: pink;
   font-size: 3rem;
 }
+.bar {
+  position: fixed; /* Giữ nguyên vị trí khi cuộn */
+  top: 0; /* Cố định sát đỉnh */
+  left: 0; /* Sát lề trái */
+  width: 16rem;
+  height: 100vh; /* Chiếm toàn bộ chiều cao màn hình */
+  border-right: 1px solid #ddd; /* Viền ngăn cách (tùy thích) */
+  display: flex;
+  flex-direction: column;
+  z-index: 100; /* Giữ trên phần nội dung */
+}
 
 .nar_bar {
   display: flex;
@@ -20,7 +31,7 @@
 }
 
 .btn_bar {
-  width: 250px;
+  width: 225px;
   height: 50px;
   display: flex;
   margin-left: 1rem;
@@ -29,7 +40,7 @@
   text-decoration: none;
   padding: 10px 20px;
   color: #333;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .icon {
@@ -38,14 +49,21 @@
   align-items: center;
 }
 
-.btn_dangnhap {
-  position: absolute;
+.btn_dangxuat {
+  margin-top: 27rem;
+  background: pink;
+}
+
+.btn_trangchu {
+  background: #96e4e8;
 }
 
 /* tim kiem */
 
-body {
-  display: flex;
+main {
+  flex: 1;
+  margin-left: 16rem;
+  box-sizing: border-box;
 }
 
 .tk {
@@ -53,8 +71,8 @@ body {
 }
 
 header.tk input {
-  width: 880px;
-  height: 60px;
+  width: 900px;
+  height: 58px;
   border: none;
   border-radius: 30px;
   background: #ded7d7;
@@ -73,27 +91,50 @@ header.tk i {
 
 nav.search {
   position: absolute;
-  top: 60px;
-  left: 220px; /* bằng chiều rộng menu trái */
   width: calc(100% - 220px);
+  margin: -1rem 0 1rem 1rem;
 }
 
 nav.search ul {
   list-style: none;
   display: flex;
   margin-top: 2rem;
-  gap: 4rem;
-  margin-left: 5rem;
+  gap: 2rem;
 }
 
 nav.search a {
   text-decoration: none;
   color: #333;
   font-weight: 300;
+  font-size: 1.3rem;
 }
 
 nav.search a:hover {
   text-decoration: underline;
   text-underline-offset: 6px;
   color: pink;
+}
+
+.post_trangchu {
+  column-count: 7;
+  column-gap: 16px;
+  margin-top: 5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.post_trangchu a {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post_trangchu img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
 }
