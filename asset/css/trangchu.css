@@ -11,60 +11,14 @@
   color: pink;
   font-size: 3rem;
 }
-.bar {
-  position: fixed; /* Giữ nguyên vị trí khi cuộn */
-  top: 0; /* Cố định sát đỉnh */
-  left: 0; /* Sát lề trái */
-  width: 16rem;
-  height: 100vh; /* Chiếm toàn bộ chiều cao màn hình */
-  border-right: 1px solid #ddd; /* Viền ngăn cách (tùy thích) */
-  display: flex;
-  flex-direction: column;
-  z-index: 100; /* Giữ trên phần nội dung */
-}
-
-.nar_bar {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  padding: 20px 0;
-}
-
-.btn_bar {
-  width: 225px;
-  height: 50px;
-  display: flex;
-  margin-left: 1rem;
-  align-items: center;
-  gap: 8px;
-  text-decoration: none;
-  padding: 10px 20px;
-  color: #333;
-  font-size: 1.5rem;
-}
-
-.icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.btn_dangxuat {
-  margin-top: 27rem;
-  background: pink;
-}
 
 .btn_trangchu {
-  background: #96e4e8;
+  background-color: #96e4e8;
 }
-
+.btn_dangxuat {
+  margin-top: 26rem;
+}
 /* tim kiem */
-
-main {
-  flex: 1;
-  margin-left: 16rem;
-  box-sizing: border-box;
-}
 
 .tk {
   padding: 10px 30px;

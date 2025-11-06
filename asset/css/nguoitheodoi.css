@@ -1,0 +1,45 @@
+.btn_trangcanhan {
+  background-color: #96e4e8;
+}
+.logo {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.elsom {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  align-items: center;
+  color: pink;
+  font-size: 3rem;
+}
+
+.nguoitheodoi {
+  margin-top: 1rem;
+}
+.ntd {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem 1rem 1rem;
+}
+
+.ntd_khung {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ntd img {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.ntd_theodoi {
+  width: 15rem;
+}
+.ntd_theodoi1 {
+  width: 15rem;
+  background-color: #96e4e8;
+}
