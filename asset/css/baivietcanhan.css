@@ -1,0 +1,211 @@
+.btn_trangcanhan {
+  background-color: #96e4e8;
+}
+.logo {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.elsom {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  align-items: center;
+  color: pink;
+  font-size: 3rem;
+}
+
+.noidung {
+  display: flex;
+  border-radius: 30px;
+  overflow: hidden;
+
+  margin: 12vh 49vh;
+  padding: 0;
+  position: relative;
+  left: auto;
+  bottom: auto;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* Left side: Image section */
+.noidunganh {
+  width: 50%;
+  flex-shrink: 0; /* Prevents the image container from shrinking */
+}
+
+.noidunganh img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+/* Right side: Post content section */
+.noidungbaidang {
+  width: 50%;
+  display: flex;
+  flex-direction: column; /* Stack header, content, comments, and input vertically */
+  background-color: #ffffff;
+}
+
+/* Post header */
+.ndbd_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  border-bottom: 1px solid #efefef;
+  flex-shrink: 0; /* Prevents the header from shrinking */
+}
+
+.bar_khung {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bar_khung img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.bar_khung name {
+  font-weight: 700;
+}
+
+.chinhsua {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Post caption */
+.noidungbaidang_nd {
+  padding: 0 0 1rem 1rem;
+  border-bottom: 1px solid #efefef;
+  font-size: 1rem;
+  line-height: 1.6;
+  flex-shrink: 0; /* Prevents the caption from shrinking */
+}
+
+/* Comments section (scrollable) */
+.baidang_binhluan {
+  flex-grow: 1; /* Allows this section to fill available space */
+  overflow-y: auto; /* Enables vertical scrolling */
+  padding: 24px;
+}
+
+/* Custom scrollbar for a cleaner look */
+.baidang_binhluan::-webkit-scrollbar {
+  width: 8px;
+}
+.baidang_binhluan::-webkit-scrollbar-track {
+  background: #f7f7f7;
+}
+.baidang_binhluan::-webkit-scrollbar-thumb {
+  background: #dcdcdc;
+  border-radius: 4px;
+}
+.baidang_binhluan::-webkit-scrollbar-thumb:hover {
+  background: #c1c1c1;
+}
+
+/* Individual comment item */
+.binhluan {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin-left: -1rem;
+}
+
+.traloibinhluan {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin-left: 2rem;
+}
+
+.khung_avatar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.khung_chat {
+  display: flex;
+  justify-content: space-between; /* p bên trái, actions bên phải */
+  align-items: center; /* căn giữa theo chiều dọc */
+  gap: 10px; /* (tuỳ chọn) khoảng cách giữa p và actions */
+}
+.khung_chat p {
+  padding-left: 3rem;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.comment-body {
+  border-radius: 18px;
+  padding: 12px 16px;
+  flex-grow: 1;
+}
+
+.comment-body .username {
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+}
+
+.comment-body p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.comment-body .actions {
+  display: flex;
+  gap: 16px;
+  font-size: 0.9rem;
+  color: #65676b;
+}
+
+.comment-body .actions i {
+  cursor: pointer;
+}
+
+/* Comment input footer */
+.vietbinhluan {
+  display: flex;
+  align-items: center;
+  padding: 7px 14px;
+  border-top: 1px solid #efefef;
+  flex-shrink: 0; /* Prevents the input section from shrinking */
+}
+
+.vietbinhluan input {
+  flex-grow: 1;
+  border: none;
+  width: 22rem;
+  height: 3.25rem;
+  border-radius: 30px;
+  background: pink;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.vietbinhluan input::placeholder {
+  font-family: "Afacad", sans-serif;
+  color: #a9a9a9;
+  padding-left: 1rem;
+}
+
+.vietbinhluan .icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.vietbinhluan .icons i,
+.vietbinhluan .icons svg {
+  cursor: pointer;
+}

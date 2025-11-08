@@ -1,0 +1,87 @@
+.btn_trangcanhan {
+  background-color: #96e4e8;
+}
+.logo {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.elsom {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  align-items: center;
+  color: pink;
+  font-size: 3rem;
+}
+
+.nut {
+  display: flex;
+  justify-content: space-between;
+  margin: -2rem 1rem 0rem -4rem;
+}
+.muiten {
+  background-color: #fff;
+  border: none;
+  font-size: 30px;
+}
+.chiase {
+  height: 3rem;
+  font-size: 1.5rem;
+  background-color: pink;
+}
+
+.fix {
+  margin-top: -2rem;
+}
+.chinhsuabaiviet {
+  display: flex;
+}
+.noidungbaiviet {
+  margin-top: 1rem;
+}
+.taobaiviet {
+  padding-top: 1rem;
+  display: flex;
+}
+
+.taianhlen img {
+  border-radius: 30px;
+  border: 1px solid #ded7d7;
+  width: 24rem;
+  height: 32rem;
+  display: flex; /* Dùng flexbox để canh giữa */
+  justify-content: center; /* Căn giữa ngang */
+  align-items: center;
+}
+
+.btn2 {
+  background-color: #96e4e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noidungbaiviet {
+  flex: 1;
+  margin-right: 4rem;
+}
+.ndbv_khung {
+  display: flex;
+  gap: 8px;
+  padding-left: 1rem;
+}
+.ndbv_khung img {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.nd_baiviet input {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  width: 26rem;
+  height: 15rem;
+  border-radius: 30px;
+  border: 1px solid #ded7d7;
+}
