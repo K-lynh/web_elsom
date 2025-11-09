@@ -1,0 +1,125 @@
+.btn_trangcanhan {
+  background-color: #96e4e8;
+}
+.logo {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.elsom {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  align-items: center;
+  color: pink;
+  font-size: 3rem;
+}
+
+.header_top {
+  display: flex;
+  gap: 4rem;
+  margin-left: 20rem;
+  margin-top: 1rem;
+}
+
+.header_top img {
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  object-fit: cover;
+}
+
+.header_main {
+  width: 600px;
+  height: 100px;
+}
+.tcn_name {
+  font-size: 2.75rem;
+  font-weight: 500;
+  margin-top: -5px;
+}
+
+.tcn_khungtop {
+  display: flex;
+  margin-top: 1rem;
+  gap: 5rem;
+}
+.tcn_buttontop {
+  display: flex;
+  gap: 5rem;
+}
+.tcn_theodoi,
+.tcn_nhantin {
+  height: 50px;
+  border-radius: 10px;
+}
+.tcn_theodoi {
+  background-color: #96e4e8;
+}
+.tcn_tao {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: #ded7d7;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  color: #333;
+}
+.tcn_khung {
+  display: flex;
+  margin-top: 1rem;
+  gap: 5rem;
+  font-size: 1.5rem;
+}
+.tcn_khung a {
+  text-decoration: none;
+  color: #333;
+}
+.tcn_tieusu {
+  margin-top: 1rem;
+}
+.tcn_tieusu input {
+  width: 815px;
+  height: 100px;
+  border: 1px solid #9e9494;
+}
+
+.tcn_baiviet {
+  margin-top: 2.5rem;
+}
+
+.main_top {
+  margin-left: 35rem;
+  display: flex;
+  gap: 20rem;
+}
+
+.tcn_baidang {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 16px;
+  margin-top: 1.5rem;
+  margin-left: 17rem;
+  margin-right: 1rem;
+}
+
+.tcn_baidang a {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.tcn_baidang img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.tcn_anh:hover img {
+  transition: transform 0.3s;
+  transform: translateY(-10px);
+}

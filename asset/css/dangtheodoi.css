@@ -15,6 +15,42 @@
   font-size: 3rem;
 }
 
+.noidung {
+  flex: 1;
+  box-sizing: border-box;
+  background-color: #fff;
+  width: 60rem;
+  height: 40rem;
+  margin-left: 16rem; /* đẩy nội dung sang phải, tránh bị bar che */
+  padding-left: 5rem;
+  justify-content: center; /* căn giữa theo chiều dọc */
+  align-items: center; /* căn giữa theo chiều ngang */
+  margin: auto; /* giúp căn giữa tổng thể */
+  position: relative;
+  left: 8rem;
+  bottom: -6rem;
+  border: 1px solid #ded7d7;
+  position: relative;
+  padding-top: 3rem;
+  box-shadow: 35px 35px 30px -10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.dong {
+  position: absolute; /* 🔹 Định vị tuyệt đối theo .noidung */
+  top: 1rem;
+  right: 1rem; /* 🔹 Dịch sang góc phải */
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.fix {
+  text-align: center;
+}
+
 .nguoitheodoi {
   margin-top: 1rem;
 }

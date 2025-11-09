@@ -18,6 +18,15 @@
 .btn_dangxuat {
   margin-top: 26rem;
 }
+.noidung {
+  margin-left: 16rem; /* đẩy nội dung sang phải, tránh bị bar che */
+
+  justify-content: center; /* căn giữa theo chiều dọc */
+  align-items: center; /* căn giữa theo chiều ngang */
+
+  overflow-y: auto;
+}
+
 /* tim kiem */
 
 .tk {
@@ -32,7 +41,7 @@ header.tk input {
   background: #ded7d7;
   font-size: 1.5rem;
   outline: none;
-  margin-left: 5rem;
+  margin-left: 9rem;
 }
 
 header.tk i {
