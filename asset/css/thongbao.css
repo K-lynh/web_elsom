@@ -54,8 +54,14 @@
   margin-left: 20rem;
   margin-top: -1rem;
 }
-.fa-gift {
+.fa-thongbao1 {
   color: pink;
+}
+.fa-thongbao2 {
+  color: #96e4e8;
+}
+.fa-thongbao3 {
+  color: red;
 }
 .tin_tb {
   display: flex;

@@ -50,6 +50,13 @@
 .tcn_chinhsua {
   height: 50px;
   border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px; /* Thêm padding ngang để nút rộng hơn */
+  white-space: nowrap;
+  color: #333;
 }
 .tcn_tao {
   width: 50px;
@@ -59,6 +66,10 @@
   border-radius: 10px;
   font-size: 1.25rem;
   color: #333;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .tcn_khung {
   display: flex;

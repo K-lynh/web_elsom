@@ -121,6 +121,9 @@
   position: relative;
   left: -23px;
   top: -18px;
+  font-family: "Afacad", sans-serif;
+  font-size: 1.5rem;
+  color: #333333;
 }
 
 .form_e label {
@@ -142,6 +145,9 @@
   position: relative;
   left: -25px;
   top: -4px;
+  font-family: "Afacad", sans-serif;
+  font-size: 1.5rem;
+  color: #333333;
 }
 
 .form_e input::placeholder {
@@ -171,6 +177,9 @@
   position: relative;
   left: -26px;
   top: 16px;
+  font-family: "Afacad", sans-serif;
+  font-size: 1.5rem;
+  color: #333333;
 }
 
 .form_pw input::placeholder {

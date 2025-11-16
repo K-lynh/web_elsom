@@ -119,3 +119,29 @@ body {
   margin-top: 27rem;
   background: pink;
 }
+
+/* ==================== Hover effects cho Sidebar Buttons ==================== */
+.btn_bar {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn_bar:hover {
+  background-color: pink; /* Màu nền nhạt khi hover */
+}
+
+.btn_bar.btn_dangxuat:hover {
+  background-color: #94ebf1; /* Màu đỏ nhạt hơn cho Đăng xuất khi hover */
+}
+
+/* Hover cho các mục tìm kiếm */
+nav.search a:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  color: pink; /* Giữ màu hồng như hiện tại */
+}
+
+/* Hover cho các bài post */
+.post_trangchu a:hover {
+  transform: translateY(-5px); /* Nâng nhẹ ảnh lên */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Tạo đổ bóng */
+}

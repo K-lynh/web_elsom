@@ -95,6 +95,9 @@
   border: 0.75px solid #333333;
   position: relative;
   left: -1.5rem;
+  font-family: "Afacad", sans-serif;
+  font-size: 1.5rem;
+  color: #333333;
 }
 
 .form_e input::placeholder {
@@ -126,6 +129,9 @@
   position: relative;
   left: -1.5rem;
   top: 2rem;
+  font-family: "Afacad", sans-serif;
+  font-size: 1.5rem;
+  color: #333333;
 }
 
 .form_pw input::placeholder {
